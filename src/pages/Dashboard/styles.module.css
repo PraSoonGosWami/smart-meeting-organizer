@@ -1,0 +1,33 @@
+.dashboard {
+  margin-top: 2rem;
+}
+.addButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.dashboard > article {
+  margin-bottom: 4rem;
+}
+
+.meetingStatsContainer,
+.meetingContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 16px;
+}
+
+@media (max-width: 700px) {
+  .meetingStatsContainer {
+    gap: 8px;
+  }
+  .meetingContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .meetingStatsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

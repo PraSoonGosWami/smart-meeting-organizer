@@ -1,0 +1,31 @@
+.inputContainer {
+  display: block;
+  width: 100%;
+  margin: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.inputLabel {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.input {
+  display: block;
+  outline: none;
+  background-color: var(--color-card);
+  padding: 12px;
+  width: inherit;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 2px solid var(--color-bg);
+  box-sizing: border-box;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  min-height: 50px;
+}
+
+.input:focus {
+  border: 2px solid var(--color-primary);
+}

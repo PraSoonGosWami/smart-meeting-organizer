@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  padding: 6px 0;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerBackButton {
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+.header > a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+}
+.header > a > img {
+  width: 40px;
+  margin-right: 12px;
+  fill: var(--color-primary);
+}
+
+.header a > h2 {
+  font-weight: 500;
+}

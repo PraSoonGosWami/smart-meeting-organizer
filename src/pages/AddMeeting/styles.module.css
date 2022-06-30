@@ -1,0 +1,22 @@
+.addMeeting {
+  margin-top: 2rem;
+}
+.meetingFrom {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.meetingError {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--color-error);
+  color: var(--color-text-white);
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 550px) {
+}

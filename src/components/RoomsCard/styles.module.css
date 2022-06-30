@@ -1,0 +1,33 @@
+.roomsCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--color-bg);
+  margin: 1rem 0.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.roomsCardContent {
+  text-align: center;
+}
+.roomsCardContent:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.roomsCardContent > h4 {
+  margin: 0 0 0.5rem 0;
+}
+
+.roomsCardContent > span {
+  font-size: 0.8rem;
+}
+
+.roomsCard:hover {
+  background-color: var(--color-primary);
+  color: var(--color-card);
+}
+
+@media (max-width: 700px) {
+}

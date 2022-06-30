@@ -1,0 +1,32 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  background-color: var(--color-shadow);
+}
+
+.modalContainer {
+  background-color: var(--color-card);
+  padding: 1rem;
+  width: 90%;
+  max-width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px var(--color-shadow);
+}
+
+.modalContainer > h3 {
+  margin: 0;
+}
+
+.modalContainer > main {
+  margin: 1rem;
+}
+
+.modalContainer > footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
